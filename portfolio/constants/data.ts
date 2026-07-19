@@ -6,29 +6,28 @@ export const PERSONAL = {
   roles: [
     "Data Analyst",
     "AI Developer",
-    "Open Source Enthusiast",
+    "Software Developer",
   ],
   location: "Uttar Pradesh, India",
   email: "aayushisoni514@gmail.com",
-  phone: "+91 8707749326",
+  phone: "+91-8707749326",
   tagline:
     "I turn raw, messy data into dashboards and decisions — and I build AI-driven tools on the side.",
   about:
     "I'm a Computer Science (AI) undergraduate at Lucknow University and a Data Analyst Intern at Blackcoffer, where I work hands-on with data extraction and analysis every day. I like the moment a spreadsheet of numbers turns into a dashboard someone can actually act on — that's the work I chase, whether it's a Power BI report tracking ₹769M in sales or a SQL query that surfaces a trend nobody had noticed yet.",
   resumeUrl: "/resume/Aayushi_Soni_Resume.pdf",
   socials: {
-    github: "https://github.com/aayushisoni514",
-    linkedin: "https://linkedin.com/in/aayushisoni514",
-    x: "https://x.com/aayushisoni514",
-    leetcode: "https://leetcode.com/aayushisoni514",
-    hackerrank: "https://hackerrank.com/aayushisoni514",
+    github: "https://github.com/Aayushi014",
+    linkedin: "https://www.linkedin.com/in/aayushi-soni14/",
+    leetcode: "https://leetcode.com/u/aayushi_soni_/",
+    hackerrank: "https://www.hackerrank.com/profile/aayushisoni14031",
     email: "mailto:aayushisoni514@gmail.com",
   },
 };
 
 export const STATS = [
   { label: "SGPA", value: "9.31", suffix: "" },
-  { label: "LeetCode Problems Solved", value: "175", suffix: "+" },
+  { label: "LeetCode Problems Solved", value: "200", suffix: "+" },
   { label: "Sales Tracked in Dashboard", value: "769", suffix: "M" },
   { label: "Hackathon Teams Outranked", value: "100", suffix: "+" },
 ];
@@ -104,7 +103,7 @@ export const PROJECTS = [
       "An interactive Power BI dashboard built for Motorola, tracking KPIs across ₹769M in total sales — transactions, quantities sold, customer ratings, and payment trends — for real-time executive reporting.",
     tech: ["Power BI", "DAX", "Data Modeling"],
     image: "/images/project-sales-dashboard.svg",
-    github: "https://github.com/aayushisoni514",
+    github: "https://github.com/Aayushi014/PowerBI-projects",
     demo: undefined,
     highlights: [
       "Advanced charts, geo-maps, and slicers",
@@ -118,7 +117,7 @@ export const PROJECTS = [
       "A SQL-driven analysis of retail inventory data, surfacing turnover trends, pricing patterns, and availability issues to support smarter stocking decisions.",
     tech: ["SQL", "PostgreSQL", "MySQL"],
     image: "/images/project-inventory-dashboard.svg",
-    github: "https://github.com/aayushisoni514",
+    github: "https://github.com/Aayushi014",
     demo: undefined,
     highlights: [
       "Complex JOINs, CTEs, and window functions",
