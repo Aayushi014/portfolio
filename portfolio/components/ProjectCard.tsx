@@ -31,7 +31,8 @@ export default function ProjectCard({
     >
       <GlassCard tilt glow="cyan" className="group overflow-hidden">
         <div className="relative aspect-[8/5] overflow-hidden">
-            src={project.image}
+            <Image
+              src={project.image}
             alt={`${project.title} preview`}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
