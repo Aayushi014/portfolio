@@ -6,6 +6,8 @@ import { PERSONAL } from "@/constants/data";
 import MagneticButton from "@/components/MagneticButton";
 import SocialLinks from "@/components/SocialLinks";
 import TypingText from "@/components/TypingText";
+import aayushi from "@/public/aayushi.jpg";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -22,7 +24,13 @@ export default function Hero() {
         <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-aurora-violet via-aurora-cyan to-aurora-magenta opacity-80 blur-md animate-spin-slow" />
         <div className="absolute inset-[3px] rounded-full bg-[var(--bg-void)]" />
         <div className="absolute inset-[6px] flex items-center justify-center rounded-full bg-gradient-to-br from-base-panel to-base-deep font-display text-4xl font-bold text-gradient">
-          {PERSONAL.initials}
+          <Image 
+            src={aayushi}
+            alt="aayushi soni"
+            fill
+            className="object-cover"
+            priority
+            />
         </div>
       </motion.div>
 
