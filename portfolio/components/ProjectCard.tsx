@@ -10,7 +10,6 @@ type Project = {
   description: string;
   tech: string[];
   image: string;
-  video: string;
   github: string;
   demo?: string;
   highlights: string[];
@@ -32,8 +31,7 @@ export default function ProjectCard({
     >
       <GlassCard tilt glow="cyan" className="group overflow-hidden">
         <div className="relative aspect-[8/5] overflow-hidden">
-          <Video
-            src={project.video}
+            src={project.image}
             alt={`${project.title} preview`}
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
