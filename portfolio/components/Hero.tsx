@@ -6,7 +6,7 @@ import { PERSONAL } from "@/constants/data";
 import MagneticButton from "@/components/MagneticButton";
 import SocialLinks from "@/components/SocialLinks";
 import TypingText from "@/components/TypingText";
-import aayushi from "@/public/aayushi.jpg";
+import aayushi from "@/public/images/aayushi.jpg";
 import Image from "next/image";
 
 export default function Hero() {
