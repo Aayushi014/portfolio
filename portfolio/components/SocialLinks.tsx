@@ -8,7 +8,6 @@ export default function SocialLinks({ className }: { className?: string }) {
   const items = [
     { icon: Github, href: PERSONAL.socials.github, label: "GitHub" },
     { icon: Linkedin, href: PERSONAL.socials.linkedin, label: "LinkedIn" },
-    { icon: Twitter, href: PERSONAL.socials.x, label: "X (Twitter)" },
     { icon: Mail, href: PERSONAL.socials.email, label: "Email" },
   ];
 
