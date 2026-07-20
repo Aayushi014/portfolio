@@ -102,7 +102,7 @@ export const PROJECTS = [
     description:
       "An interactive Power BI dashboard built for Motorola, tracking KPIs across ₹769M in total sales — transactions, quantities sold, customer ratings, and payment trends — for real-time executive reporting.",
     tech: ["Power BI", "DAX", "Data Modeling"],
-    image: "/images/project-sales-dashboard.svg",
+    image: "/images/Sales_dashboard.png",
     github: "https://github.com/Aayushi014/PowerBI-projects",
     demo: undefined,
     highlights: [
